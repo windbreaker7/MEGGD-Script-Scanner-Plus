@@ -86,3 +86,29 @@
 ~ Enhanced button color system with filter-specific colors
 ~ Better visual feedback for filter selections
 
+
+# Script Scanner Update to 1.3.1
+
+**NEW FEATURES:**
+
++ **Sort Mode** — Added sort button to reorder search results
+  - Sort by matches (highest hit count first)
+  - Sort by name (alphabetical)
+  - Sort by path (by script location in hierarchy)
+  - Cycles through modes on each press
+
++ **Result Count Label** — Shows total number of matching scripts found after each search
+
++ **Clear Cache Button** — Added red "Clear Cache" button in settings
+  - Clears the decompile cache to free memory
+  - Useful after scanning many scripts
+
++ **Path Tracking** — Search results now store and display the full script path in the hierarchy
+
+**FIXES:**
+
+~ Fixed version string (was incorrectly reporting V2.0.0)
+
+**CHANGES:**
+
+~ Version bump from 1.3.0 to 1.3.1
